@@ -70,9 +70,9 @@ Login using the superuser credentials you created.
 
 From here, you can:
 
-View, edit, or delete reminders
+-View, edit, or delete reminders
 
-Add new reminders manually
+-Add new reminders manually
 ## 📁 Project Structure
 ```text
 remind_me_later/          # Django project root
@@ -99,5 +99,13 @@ remind_me_later/          # Django project root
 
 └── README.md             # Project overview and usage
 ```
+## Notes
+-This project does not handle sending reminders via SMS or email; it only stores the reminder data.
+
+-The reminder_type field currently supports only "SMS" and "Email".
+
+-Future enhancements may include other reminder delivery methods and scheduling.
+
+
 📄 License
 This project is licensed under the MIT License.

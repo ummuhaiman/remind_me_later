@@ -10,9 +10,11 @@ A simple Django-based web API that allows users to set reminders with:
 
 ## 🚀 Features
 
-- Create and store reminders
-- Admin panel to manage reminders
-- Designed to support future reminder types
+- Create reminders by sending `date`, `time`, `message`, and `reminder_type`
+- Supports reminder types: SMS and Email
+- Stores reminder data in a SQLite database
+- Admin panel access to view and manage reminders
+
 
 ---
 
@@ -21,6 +23,7 @@ A simple Django-based web API that allows users to set reminders with:
 - Python 3.x
 - Django 4.x
 - Django REST Framework
+- SQLite (default)
 
 ---
 ## Apply migrations
